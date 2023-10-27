@@ -10,9 +10,9 @@
     <title>HOME</title>
 </head>
 <body>
-<button type="button" class="btn btn-danger"><a href="index.html">Home</a></button>
-<button type="button" class="btn btn-success"><a href="about.html">About</a></button>
-<button type="button" class="btn btn-secondary"><a href="gallery.html">Gallery</a></button>
+<button type="button" class="btn btn-danger"><a href="{% url 'homepage' %}">Home</a></button>
+<button type="button" class="btn btn-success"><a href="{% url 'about' %}">About</a></button>
+<button type="button" class="btn btn-secondary"><a href="{% url 'gallery' %}">Gallery</a></button>
 <div class="container-fluid bg-info text-center">
     <h2>Welcome to Django web-framework</h2>
     <p>
