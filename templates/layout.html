@@ -11,10 +11,10 @@
 </head>
 <body>
 {#This is a base file containing all the components to repeated in all web pages#}
-<div class="container">
-    <button type="button" class="button btn-success"><a href="{% url 'homepage' %}">Home</a></button>
-    <button type="button" class="button btn-info"><a href="{% url 'about' %}">About</a></button>
-    <button type="button" class="button btn-primary"><a href="{% url 'gallery' %}">Gallery</a></button>
+<div class="container-fluid p-3 bg-primary">
+     <a href="{% url 'homepage' %}"><button type="button" class="button btn-success"> Home</button></a>
+     <a href="{% url 'about' %}"><button type="button" class="button btn-info">About</button></a>
+     <a href="{% url 'gallery' %}"><button type="button" class="button btn-primary">Gallery</button></a>
 </div>
 
 {% block body %}
