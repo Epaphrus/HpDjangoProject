@@ -1,16 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 <body>
 <button type="button" class="btn btn-danger"><a href="{% url 'homepage' %}">Home</a></button>
 <button type="button" class="btn"><a href="{% url 'about' %}">About</a></button>
 <button type="button" class="btn"><a href="{% url 'gallery' %}">Gallery</a></button>
-<h2>
+
+<div class="container bg-body-secondary">
+    <h2>
     This is about page.
 </h2>
-
+</div>
 </body>
 </html>
