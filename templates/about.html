@@ -30,3 +30,17 @@
 {#<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>#}
 {#</body>#}
 {#</html>#}
+
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{% block body %}
+    <h2>This is the about page.</h2>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Culpa cumque cupiditate, esse, expedita, facilis libero
+        nisi perspiciatis quae quia soluta tempore ut voluptatem voluptates!
+        Atque beatae corporis dolor maxime perspiciatis.
+    </p>
+{% endblock %}
